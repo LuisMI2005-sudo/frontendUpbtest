@@ -2,6 +2,8 @@
 
 Interfaz de inventario en español conectada al backend Express/PostgreSQL de Render. HTML, CSS y JavaScript nativos, sin dependencias de ejecución ni claves privadas.
 
+**Frontend publicado:** https://frontendupbtest.onrender.com
+
 ## Funciones
 
 - Listado y resumen de productos, unidades y valor del stock.
@@ -42,4 +44,10 @@ Node 22 o posterior. `npm run check` revisa la sintaxis; `npm run build` prepara
 
 ## Entrega académica
 
-Entregar el enlace de este repositorio, el repositorio del backend y la URL pública del frontend publicada en Render.
+1. Repositorio frontend: https://github.com/LuisMI2005-sudo/frontendUpbtest
+2. Repositorio backend: https://github.com/LuisMI2005-sudo/backendUpbtest
+3. Frontend funcionando: https://frontendupbtest.onrender.com
+
+Backend público: https://backendupbtest-969u.onrender.com
+
+Desde la página se pueden crear productos, buscarlos, consultar sus detalles, editar su precio y stock y eliminarlos con confirmación. El backend del plan gratuito puede tardar unos segundos en responder a la primera petición después de un periodo de inactividad.

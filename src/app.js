@@ -26,7 +26,7 @@ function render() {
   $('stat-value').textContent = money(products.reduce((sum, row) => sum + row.precio * row.stock, 0));
   $('nav-count').textContent = query ? '·' : number(count);
   $('result-count').textContent = `${count} ${count === 1 ? 'producto' : 'productos'}`;
-  $('table-summary').textContent = query ? `${count} resultados en esta búsqueda` : `${count} ${count === 1 ? 'producto registrado' : 'productos registrados'}`;
+  $('table-summary').textContent = query ? `${count} ${count === 1 ? 'resultado' : 'resultados'} en esta búsqueda` : `${count} ${count === 1 ? 'producto registrado' : 'productos registrados'}`;
   $('filter-note').hidden = !query;
   $('filter-text').textContent = `Resultados para “${query}” · El resumen muestra esta búsqueda.`;
   $('empty').hidden = count > 0;
